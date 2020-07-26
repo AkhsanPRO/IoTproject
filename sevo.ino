@@ -5,9 +5,9 @@ s#include <ESP8266Wifi.h>
 #define BLYNK_PRINT serial
 
 Servo servo;
-char auth[]="ei82Cc_uxf_eawNxEqRnhl-FDvNgZWOw";
-char ssid[]= "Irwana Nainggolan";
-char pswd[]="mamaalmira";
+char auth[]="auth token";
+char ssid[]= "@wifi.id";
+char pswd[]="password";
 
 void setup() {
   Serial.begin(9600);
