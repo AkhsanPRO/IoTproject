@@ -3,9 +3,9 @@
 #include  "DHT.h"
 #include "UbidotsMicroESP8266.h"
 #define DHTPIN 4 
-#define TOKEN "BBFF-4mj0UtufbEtRX610XdzBSPnoGu4WWS" //token dari ubidots
-#define ssid "Almira04"
-#define psswd "papamama"
+#define TOKEN "yourUbidotsToken" //token dari ubidots
+#define ssid "@wifi.id"
+#define psswd "password"
 DHT dht (DHTPIN , DHT11);
 Ubidots client(TOKEN);
 unsigned long last =0;
